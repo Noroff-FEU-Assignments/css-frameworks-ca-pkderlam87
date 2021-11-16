@@ -28,6 +28,8 @@ function Cards() {
                                 <Button variant="primary">More</Button>
                             </Card.Body>
                         </Card>
+                    </Col>
+                    <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={news2} />
                             <Card.Body>
@@ -46,6 +48,8 @@ function Cards() {
                                 <Button variant="primary">More</Button>
                             </Card.Body>
                         </Card>
+                    </Col>
+                    <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={news4} />
                             <Card.Body>
@@ -55,7 +59,7 @@ function Cards() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col gap={3}>
+                    <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={news5} />
                             <Card.Body>
@@ -64,6 +68,8 @@ function Cards() {
                                 <Button variant="primary">More</Button>
                             </Card.Body>
                         </Card>
+                    </Col>
+                    <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={news6} />
                             <Card.Body>
@@ -73,7 +79,7 @@ function Cards() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col gap={3}>
+                    <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={news7} />
                             <Card.Body>
@@ -82,6 +88,8 @@ function Cards() {
                                 <Button variant="primary">More</Button>
                             </Card.Body>
                         </Card>
+                    </Col>
+                    <Col>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={news8} />
                             <Card.Body>
