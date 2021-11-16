@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navigation() {
     return (
@@ -16,9 +16,9 @@ function Navigation() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
-                            <Link exact to="/">Home</Link>
-                            <Link to="./News/News">News</Link>
-                            <Link to="./Contact/Contact">Contact</Link>
+                            <NavLink to="/Home" className="nav-link">Home</NavLink>
+                            <NavLink to="/News" className="nav-link">News</NavLink>
+                            <NavLink to="/Contact" className="nav-link">Contact</NavLink>
                         </Nav>
                         <Form className="d-flex">
                             <FormControl
