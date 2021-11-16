@@ -1,10 +1,9 @@
 import React from 'react'
 
-function TitleIndex() {
+function TitleIndex(props) {
+    console.log(props);
     return (
-        <>
-            <h1>We do YAY things</h1>
-        </>
+        <h1>{props.content}</h1>
     )
 }
 

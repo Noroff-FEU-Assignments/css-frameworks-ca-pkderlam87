@@ -2,12 +2,13 @@ import React from 'react';
 import TitleIndex from './../TitleIndex';
 import Paragraph from './../Paragraph';
 import Footer from './../Footer';
+import Cards from './Cards';
 
 function News() {
     return (
         <div className="App">
-            <TitleIndex />
-            <Paragraph content="NEWS"></Paragraph>
+            <TitleIndex content="News" />
+            <Cards />
             <Footer />
         </div>
     );
