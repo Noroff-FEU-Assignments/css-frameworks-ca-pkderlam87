@@ -24,7 +24,7 @@ function Cards() {
                             <Card.Img variant="top" src={news1} />
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
-                                <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
+                                <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                                 <Button variant="primary">More</Button>
                             </Card.Body>
                         </Card>
@@ -34,7 +34,7 @@ function Cards() {
                             <Card.Img variant="top" src={news2} />
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
-                                <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
+                                <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                                 <Button variant="primary">More</Button>
                             </Card.Body>
                         </Card>
@@ -44,7 +44,7 @@ function Cards() {
                             <Card.Img variant="top" src={news3} />
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
-                                <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
+                                <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                                 <Button variant="primary">More</Button>
                             </Card.Body>
                         </Card>
@@ -54,7 +54,7 @@ function Cards() {
                             <Card.Img variant="top" src={news4} />
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
-                                <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
+                                <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                                 <Button variant="primary">More</Button>
                             </Card.Body>
                         </Card>
@@ -64,7 +64,7 @@ function Cards() {
                             <Card.Img variant="top" src={news5} />
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
-                                <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
+                                <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                                 <Button variant="primary">More</Button>
                             </Card.Body>
                         </Card>
@@ -74,7 +74,7 @@ function Cards() {
                             <Card.Img variant="top" src={news6} />
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
-                                <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
+                                <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                                 <Button variant="primary">More</Button>
                             </Card.Body>
                         </Card>
@@ -84,7 +84,7 @@ function Cards() {
                             <Card.Img variant="top" src={news7} />
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
-                                <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
+                                <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                                 <Button variant="primary">More</Button>
                             </Card.Body>
                         </Card>
@@ -94,7 +94,7 @@ function Cards() {
                             <Card.Img variant="top" src={news8} />
                             <Card.Body>
                                 <Card.Title>Nunc porttitor vel</Card.Title>
-                                <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
+                                <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                                 <Button variant="primary">More</Button>
                             </Card.Body>
                         </Card>
