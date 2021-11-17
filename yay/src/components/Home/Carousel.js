@@ -1,7 +1,7 @@
 import React from 'react';
-import carousel1 from './images/carousel/carousel1.jpg';
-import carousel2 from './images/carousel/carousel2.jpg';
-import carousel3 from './images/carousel/carousel3.jpg';
+import carousel1 from '../images/carousel/carousel1.jpg';
+import carousel2 from '../images/carousel/carousel2.jpg';
+import carousel3 from '../images/carousel/carousel3.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 
 function CarouselNews() {

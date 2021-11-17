@@ -2,7 +2,7 @@
 import './App.css';
 import Navigation from './components/Nav';
 /*import CarouselNews from './components/Carousel';
-import TitleIndex from './components/TitleIndex';
+import TitlePage from './components/TitlePage';
 import Paragraph from './components/Paragraph';
 import TabsIndex from './components/Tabs';
 import Footer from './components/Footer';*/

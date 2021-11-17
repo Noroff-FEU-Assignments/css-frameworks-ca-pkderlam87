@@ -1,6 +1,6 @@
 import React from 'react';
 import InfoContact from './InfoContact';
-import TitleIndex from './../TitleIndex';
+import TitlePage from './../TitlePage';
 import FormContact from './FormContact';
 import Footer from './../Footer';
 
@@ -8,7 +8,7 @@ function Contact() {
     return (
         <div className="App">
             <InfoContact />
-            <TitleIndex content="Submit your details" />
+            <TitlePage content="Submit your details" />
             <FormContact />
             <Footer />
         </div>

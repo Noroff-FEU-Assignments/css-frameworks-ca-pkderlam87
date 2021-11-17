@@ -1,5 +1,5 @@
 import React from 'react';
-import TitleIndex from './../TitleIndex';
+import TitlePage from './../TitlePage';
 import Footer from './../Footer';
 import Cards from './Cards';
 import NavNews from './NavNews';
@@ -7,7 +7,7 @@ import NavNews from './NavNews';
 function News() {
     return (
         <div className="App">
-            <TitleIndex content="News" />
+            <TitlePage content="News" />
             <NavNews />
             <Cards />
             <Footer />

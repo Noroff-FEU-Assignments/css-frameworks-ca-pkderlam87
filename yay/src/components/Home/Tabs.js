@@ -2,7 +2,7 @@ import React from 'react';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
 import Accordion from 'react-bootstrap/Accordion'
-import Paragraph from './Paragraph';
+import Paragraph from './../Paragraph';
 import SocialMedia from './SocialMedia';
 
 function TabsIndex() {
