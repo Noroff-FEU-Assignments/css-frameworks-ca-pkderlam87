@@ -12,7 +12,7 @@ function Navigation() {
         <>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand to="/Home"><NavLink to="/Home">The YAY Company</NavLink></Navbar.Brand>
+                    <Navbar.Brand to="/Home"><NavLink to="/Home" className="nav-link">The YAY Company</NavLink></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">

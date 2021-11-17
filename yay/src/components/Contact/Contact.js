@@ -3,13 +3,16 @@ import InfoContact from './InfoContact';
 import TitlePage from './../TitlePage';
 import FormContact from './FormContact';
 import Footer from './../Footer';
+import Container from 'react-bootstrap/esm/Container';
 
 function Contact() {
     return (
         <div className="App">
-            <InfoContact />
-            <TitlePage content="Submit your details" />
-            <FormContact />
+            <Container>
+                <InfoContact />
+                <TitlePage content="Submit your details" />
+                <FormContact />
+            </Container>
             <Footer />
         </div>
     );
