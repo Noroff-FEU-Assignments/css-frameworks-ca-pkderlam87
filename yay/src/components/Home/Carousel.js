@@ -4,10 +4,11 @@ import carousel2 from '../images/carousel/carousel2.jpg';
 import carousel3 from '../images/carousel/carousel3.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 
+
 function CarouselNews() {
     return (
         <>
-            <Carousel>
+            <Carousel controls={false}>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
