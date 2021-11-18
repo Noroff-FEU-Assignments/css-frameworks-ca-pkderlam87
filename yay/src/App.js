@@ -13,14 +13,12 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <div className="App">
-        <Navigation />
-        <Routes>
-          <Route path="/Home" element={<Home />} />
-          <Route path="/News" element={<News />} />
-          <Route path="/Contact" element={<Contact />} />
-        </Routes>
-      </div>
+      <Navigation />
+      <Routes>
+        <Route path="/Home" element={<Home />} />
+        <Route path="/News" element={<News />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
     </ThemeProvider>
   );
 }

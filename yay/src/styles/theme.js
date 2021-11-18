@@ -9,9 +9,9 @@ export default {
         backgroundColour: "radial-gradient(#FFFFFF,#E5E5E5)",
         shadow: "0 6px 12px rgba(0, 0, 0, 0.2)",
     },
-    borderRadius: "10px",
+    borderRadius: "15px 15px 0 0",
     widths: {
-        small: "480px",
+        small: "320px",
         medium: "768px",
     },
 };
