@@ -3,12 +3,12 @@ import carousel1 from '../images/carousel/carousel1.jpg';
 import carousel2 from '../images/carousel/carousel2.jpg';
 import carousel3 from '../images/carousel/carousel3.jpg';
 import Carousel from 'react-bootstrap/Carousel';
-
+import { CustomButtonCarousel } from '../../styles/Button';
 
 function CarouselNews() {
     return (
         <>
-            <Carousel controls={false}>
+            <Carousel controls={false}><CustomButtonCarousel controls={false}>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
@@ -30,7 +30,7 @@ function CarouselNews() {
                         alt="A broken TV"
                     />
                 </Carousel.Item>
-            </Carousel>
+            </CustomButtonCarousel></Carousel>
         </>
     )
 }

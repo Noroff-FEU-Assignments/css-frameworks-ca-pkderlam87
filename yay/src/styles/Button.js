@@ -13,6 +13,15 @@ export const CustomButton = styled(Button)`
 `;
 
 export const CustomButtonCarousel = styled(Carousel)`
-    background: ${(props) => props.theme.colours.primaryColour};
-    padding: 10px;
+    .carousel-indicators [data-bs-target]{
+        background:${(props) => props.theme.colours.secondaryColour};
+        width:20px;
+        height:5px;
+        opacity: 1;
+    }
+    .carousel-indicators .active{
+        background: ${(props) => props.theme.colours.primaryColour};
+        width:20px;
+        height:5px;
+    }
 `;
