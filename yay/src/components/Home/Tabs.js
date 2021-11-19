@@ -9,9 +9,8 @@ import Tab from 'react-bootstrap/Tab';
 import { CustomAccordionHeader } from '../../styles/TabAccordion';
 import { CustomAccordionBody } from '../../styles/TabAccordion';
 import { Wrapper } from '../../styles/TabAccordion';
-import { CustomTab } from '../../styles/TabAccordion';
 import { CustomButtonTab } from '../../styles/Button';
-import Tabs from 'react-bootstrap/Tabs';
+
 
 function TabsIndex() {
     return (
@@ -55,32 +54,29 @@ function TabsIndex() {
                 </Accordion.Item>
             </Accordion>
             <div className="d-none d-md-block">
-                <Tabs defaultActiveKey="one" id="uncontrolled-tab-example" className="mb-3">
+                <CustomButtonTab defaultActiveKey="one" id="uncontrolled-tab-example">
                     <Tab eventKey="one" title="First">
                         <Wrapper>
                             <img src={tab1} alt={tab1} />
                             <Paragraph content="Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus." />
+                            <SocialMedia />
                         </Wrapper>
-                        <SocialMedia />
                     </Tab>
                     <Tab eventKey="two" title="Second">
                         <Wrapper>
                             <img src={tab2} alt={tab2} />
                             <Paragraph content="Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus." />
+                            <SocialMedia />
                         </Wrapper>
-                        <SocialMedia />
                     </Tab>
                     <Tab eventKey="three" title="Third" >
                         <Wrapper>
-                            <img
-                                src={tab3}
-                                alt={tab3}
-                            />
+                            <img src={tab3} alt={tab3} />
                             <Paragraph content="Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus." />
+                            <SocialMedia />
                         </Wrapper>
-                        <SocialMedia />
                     </Tab>
-                </Tabs>
+                </CustomButtonTab>
             </div>
         </>
     )

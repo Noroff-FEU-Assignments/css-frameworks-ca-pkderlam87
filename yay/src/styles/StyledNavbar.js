@@ -2,9 +2,14 @@ import styled from "styled-components";
 import { Title } from "../components/TitlePage";
 import Nav from "react-bootstrap/Nav";
 import { NavLink } from "react-router-dom";
+import Navbar from "react-bootstrap/Navbar";
+
 
 export const MainTitleNav = styled(Title)`
     font-style: italic;
+    @media (min-width: ${(props) => props.theme.widths.medium}) {
+    font-size: 1.5em;
+    }
 `
 export const CustomNavLink = styled(NavLink)`
     color: ${(props) => props.theme.colours.blackColour};
@@ -37,4 +42,7 @@ export const CustomNav = styled(Nav)`
     background: none;
     justify-content:space-between;
 } 
+`
+export const CustomNavbar = styled(Navbar)`
+        background: ${(props) => props.theme.colours.lightGray};
 `

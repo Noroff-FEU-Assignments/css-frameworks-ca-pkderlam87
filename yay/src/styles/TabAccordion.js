@@ -2,7 +2,6 @@ import styled from "styled-components";
 import AccordionHeader from "react-bootstrap/AccordionHeader";
 import AccordionBody from "react-bootstrap/AccordionBody";
 
-
 //Accordion Header
 export const CustomAccordionHeader = styled(AccordionHeader)`
     .accordion-button:not(.collapsed){
@@ -26,10 +25,22 @@ export const CustomAccordionBody = styled(AccordionBody)`
 
 //Tab body
 export const Wrapper = styled.div`
-    display: flex;
-`
-export const CustomTab = styled.div`
-    .tab-pane{
-        background: ${(props) => props.theme.colours.secondaryColour};
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2%;
+    padding: 1% 2%;
+    background: ${(props) => props.theme.colours.secondaryColour};
+    box-shadow: ${(props) => props.theme.colours.shadow};
+    img{
+        grid-row-start: 1;
+        grid-row-end: span 2;
+        max-width: 70%;
+        margin:0 auto;
+    }
+    .cOXXdb{
+        margin: 0;
+        justify-content: left;
+        gap: 3%;
     }
 `

@@ -29,9 +29,52 @@ export const CustomButtonCarousel = styled(Carousel)`
 `;
 //Tab button
 export const CustomButtonTab = styled(Tabs)`
-    .nav-tabs .nav-link.active{
+    .nav-link.active{
         border-radius: ${(props) => props.theme.borderRadius};
-        background: ${(props) => props.theme.colours.secondaryColour};
+        color: ${(props) => props.theme.colours.darkGray};
+    }
+    .nav-link{
         color: ${(props) => props.theme.colours.primaryColour};
     }
+    .tab-content > .active{
+        margin-top: 1%;
+    }
 `;
+
+//Card Button
+export const CustomButtonCard = styled(Button)`
+        background: ${(props) => props.theme.colours.primaryColour};
+        color: ${(props) => props.theme.colours.secondaryColour};   
+        border: none;
+        width: 90%;
+        height: 40px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius:0;
+
+        &:hover{
+            background: ${(props) => props.theme.colours.secondaryColour};
+            color: ${(props) => props.theme.colours.primaryColour};
+            border: 2px solid ${(props) => props.theme.colours.primaryColour};
+        }
+`
+export const DetailButton = styled.div`
+        width: 1rem;
+        height: 40px;
+        background: ${(props) => props.theme.colours.darkGray};
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+`
+
+//Form Contact Button
+export const FormButton = styled(CustomButtonCard)`
+    background: ${(props) => props.theme.colours.darkGray};
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    width: 100%;
+
+    &:hover{
+        border: 2px solid ${(props) => props.theme.colours.darkGray};
+        background: ${(props) => props.theme.colours.secondaryColour};
+        font-weight: 700;
+    }
+`

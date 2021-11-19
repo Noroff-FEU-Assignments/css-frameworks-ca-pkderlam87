@@ -9,11 +9,12 @@ import { MainTitleNav } from '../styles/StyledNavbar';
 import { CustomNavLink } from '../styles/StyledNavbar';
 import { CustomNav } from '../styles/StyledNavbar';
 import { CustomButton } from '../styles/Button';
+import { CustomNavbar } from '../styles/StyledNavbar';
 
 function Navigation() {
     return (
         <>
-            <Navbar expand="lg">
+            <CustomNavbar expand="lg">
                 <Container>
                     <Navbar.Brand to="/Home"><NavLink to="/Home" className="nav-link"><MainTitleNav>The YAY Company</MainTitleNav></NavLink></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -35,7 +36,7 @@ function Navigation() {
                         </CustomNav>
                     </Navbar.Collapse>
                 </Container>
-            </Navbar>
+            </CustomNavbar>
         </>
     )
 }
