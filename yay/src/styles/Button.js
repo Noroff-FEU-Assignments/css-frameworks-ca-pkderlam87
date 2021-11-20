@@ -43,26 +43,33 @@ export const CustomButtonTab = styled(Tabs)`
 
 //Card Button
 export const CustomButtonCard = styled(Button)`
+        position: relative;
         background: ${(props) => props.theme.colours.primaryColour};
         color: ${(props) => props.theme.colours.secondaryColour};   
         border: none;
-        width: 90%;
-        height: 40px;
-        border-top-right-radius: 0;
-        border-bottom-right-radius:0;
-
+        width: 100%;
+        height: 40px;        
+        
+        &:after{
+            content: attr(CustomButtonCard);
+            position: absolute;
+            Right:0;
+            Top:0;
+            width: 15%;
+            height: 100%;
+            background: ${(props) => props.theme.colours.darkGray};
+            border-top-right-radius: 3px;
+            border-bottom-right-radius: 3px;
+        }
+        
         &:hover{
             background: ${(props) => props.theme.colours.secondaryColour};
             color: ${(props) => props.theme.colours.primaryColour};
             border: 2px solid ${(props) => props.theme.colours.primaryColour};
         }
-`
-export const DetailButton = styled.div`
-        width: 1rem;
-        height: 40px;
-        background: ${(props) => props.theme.colours.darkGray};
-        border-top-right-radius: 3px;
-        border-bottom-right-radius: 3px;
+        &:hover::after{
+            background: ${(props) => props.theme.colours.secondaryColour};
+        }
 `
 
 //Form Contact Button

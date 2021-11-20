@@ -12,7 +12,6 @@ import news8 from '../images/news/news8.jpg';
 import Paragraph from '../Paragraph';
 import { CustomCard } from '../../styles/NewsStyles/StyledCards';
 import { CustomButtonCard } from '../../styles/Button';
-import { DetailButton } from '../../styles/Button';
 import { WrapperFlex } from '../../styles/layout';
 import { CustomRow } from '../../styles/NewsStyles/StyledCards';
 
@@ -27,7 +26,7 @@ function Cards() {
                             <Card.Title>Nunc porttitor vel</Card.Title>
                             <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                             <WrapperFlex>
-                                <CustomButtonCard variant="primary">More</CustomButtonCard><DetailButton></DetailButton>
+                                <CustomButtonCard variant="primary">More</CustomButtonCard>
                             </WrapperFlex>
                         </Card.Body>
                     </CustomCard>
@@ -39,7 +38,7 @@ function Cards() {
                             <Card.Title>Nunc porttitor vel</Card.Title>
                             <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                             <WrapperFlex>
-                                <CustomButtonCard variant="primary">More</CustomButtonCard><DetailButton></DetailButton>
+                                <CustomButtonCard variant="primary">More</CustomButtonCard>
                             </WrapperFlex>
                         </Card.Body>
                     </CustomCard>
@@ -51,7 +50,7 @@ function Cards() {
                             <Card.Title>Nunc porttitor vel</Card.Title>
                             <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                             <WrapperFlex>
-                                <CustomButtonCard variant="primary">More</CustomButtonCard><DetailButton></DetailButton>
+                                <CustomButtonCard variant="primary">More</CustomButtonCard>
                             </WrapperFlex>
                         </Card.Body>
                     </CustomCard>
@@ -63,7 +62,7 @@ function Cards() {
                             <Card.Title>Nunc porttitor vel</Card.Title>
                             <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                             <WrapperFlex>
-                                <CustomButtonCard variant="primary">More</CustomButtonCard><DetailButton></DetailButton>
+                                <CustomButtonCard variant="primary">More</CustomButtonCard>
                             </WrapperFlex>
                         </Card.Body>
                     </CustomCard>
@@ -75,7 +74,7 @@ function Cards() {
                             <Card.Title>Nunc porttitor vel</Card.Title>
                             <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                             <WrapperFlex>
-                                <CustomButtonCard variant="primary">More</CustomButtonCard><DetailButton></DetailButton>
+                                <CustomButtonCard variant="primary">More</CustomButtonCard>
                             </WrapperFlex>
                         </Card.Body>
                     </CustomCard>
@@ -87,7 +86,7 @@ function Cards() {
                             <Card.Title>Nunc porttitor vel</Card.Title>
                             <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                             <WrapperFlex>
-                                <CustomButtonCard variant="primary">More</CustomButtonCard><DetailButton></DetailButton>
+                                <CustomButtonCard variant="primary">More</CustomButtonCard>
                             </WrapperFlex>
                         </Card.Body>
                     </CustomCard>
@@ -99,7 +98,7 @@ function Cards() {
                             <Card.Title>Nunc porttitor vel</Card.Title>
                             <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                             <WrapperFlex>
-                                <CustomButtonCard variant="primary">More</CustomButtonCard><DetailButton></DetailButton>
+                                <CustomButtonCard variant="primary">More</CustomButtonCard>
                             </WrapperFlex>
                         </Card.Body>
                     </CustomCard>
@@ -111,7 +110,7 @@ function Cards() {
                             <Card.Title>Nunc porttitor vel</Card.Title>
                             <Paragraph content="Nunc malesuada eget est fringilla dapibus."></Paragraph>
                             <WrapperFlex>
-                                <CustomButtonCard variant="primary">More</CustomButtonCard><DetailButton></DetailButton>
+                                <CustomButtonCard variant="primary">More</CustomButtonCard>
                             </WrapperFlex>
                         </Card.Body>
                     </CustomCard>
